@@ -59,45 +59,85 @@ npm start --list
 npm start --help
 ```
 
-## 📋 Implemented Patterns
+## � Pattern Documentation
+
+Each design pattern includes comprehensive documentation with:
+
+### 📖 Individual Pattern READMEs
+- **Real-world examples** and analogies
+- **Plain English explanations** of complex concepts  
+- **Complete TypeScript implementations** with modern features
+- **Usage examples** and best practices
+- **When to use** and when to avoid guidelines
+- **Benefits and drawbacks** analysis
+- **Related patterns** and comparisons
+
+### 🎯 Quick Navigation
+
+#### Creational Patterns
+- [💍 Singleton](src/creational/singleton/) - Ensure single instance
+- [🏭 Factory Method](src/creational/factory-method/) - Create objects via inheritance
+- [🔨 Abstract Factory](src/creational/abstract-factory/) - Create object families
+- [👷 Builder](src/creational/builder/) - Construct complex objects step-by-step
+
+#### Structural Patterns  
+- [🔌 Adapter](src/structural/adapter/) - Make incompatible interfaces work together
+
+#### Behavioral Patterns
+- [😎 Observer](src/behavioral/observer/) - Define one-to-many object dependencies
+
+### 📋 Pattern Summary Table
+
+| Category | Pattern | Complexity | Use Case |
+|----------|---------|------------|----------|
+| **Creational** | Singleton | ⭐⭐ | Global access to single instance |
+| **Creational** | Factory Method | ⭐⭐⭐ | Create objects without specifying classes |
+| **Creational** | Abstract Factory | ⭐⭐⭐⭐ | Create families of related objects |
+| **Creational** | Builder | ⭐⭐⭐ | Construct complex objects step-by-step |
+| **Structural** | Adapter | ⭐⭐ | Interface compatibility |
+| **Behavioral** | Observer | ⭐⭐⭐ | Notify dependents of state changes |
+
+**Complexity Legend:** ⭐ Simple, ⭐⭐ Moderate, ⭐⭐⭐ Complex, ⭐⭐⭐⭐ Advanced
+
+## �📋 Implemented Patterns
 
 ### ✅ Creational Patterns (4/5)
 
-| Pattern | Status | Description |
-|---------|--------|-------------|
-| **Singleton** | ✅ Complete | Ensure only one instance exists globally |
-| **Factory Method** | ✅ Complete | Create objects without specifying exact classes |
-| **Abstract Factory** | ✅ Complete | Create families of related objects |
-| **Builder** | ✅ Complete | Construct complex objects step by step |
-| **Prototype** | 🚧 Coming Soon | Create objects by cloning existing instances |
+| Pattern | Status | Description | Documentation |
+|---------|--------|-------------|---------------|
+| **[Singleton](src/creational/singleton/)** | ✅ Complete | Ensure only one instance exists globally | [📖 Read More](src/creational/singleton/) |
+| **[Factory Method](src/creational/factory-method/)** | ✅ Complete | Create objects without specifying exact classes | [📖 Read More](src/creational/factory-method/) |
+| **[Abstract Factory](src/creational/abstract-factory/)** | ✅ Complete | Create families of related objects | [📖 Read More](src/creational/abstract-factory/) |
+| **[Builder](src/creational/builder/)** | ✅ Complete | Construct complex objects step by step | [📖 Read More](src/creational/builder/) |
+| **Prototype** | 🚧 Coming Soon | Create objects by cloning existing instances | Coming Soon |
 
 ### 🚧 Structural Patterns (1/7)
 
-| Pattern | Status | Description |
-|---------|--------|-------------|
-| **Adapter** | ⚠️ Partial | Allow incompatible interfaces to work together |
-| **Bridge** | 🚧 Coming Soon | Separate abstraction from implementation |
-| **Composite** | 🚧 Coming Soon | Compose objects into tree structures |
-| **Decorator** | 🚧 Coming Soon | Add behavior dynamically |
-| **Facade** | 🚧 Coming Soon | Provide simplified interface |
-| **Flyweight** | 🚧 Coming Soon | Minimize memory usage |
-| **Proxy** | 🚧 Coming Soon | Provide placeholder for another object |
+| Pattern | Status | Description | Documentation |
+|---------|--------|-------------|---------------|
+| **[Adapter](src/structural/adapter/)** | ⚠️ Partial | Allow incompatible interfaces to work together | [📖 Read More](src/structural/adapter/) |
+| **Bridge** | 🚧 Coming Soon | Separate abstraction from implementation | Coming Soon |
+| **Composite** | 🚧 Coming Soon | Compose objects into tree structures | Coming Soon |
+| **Decorator** | 🚧 Coming Soon | Add behavior dynamically | Coming Soon |
+| **Facade** | 🚧 Coming Soon | Provide simplified interface | Coming Soon |
+| **Flyweight** | 🚧 Coming Soon | Minimize memory usage | Coming Soon |
+| **Proxy** | 🚧 Coming Soon | Provide placeholder for another object | Coming Soon |
 
 ### 🚧 Behavioral Patterns (1/11)
 
-| Pattern | Status | Description |
-|---------|--------|-------------|
-| **Observer** | ✅ Complete | Notify multiple objects of state changes |
-| **Strategy** | 🚧 Coming Soon | Define family of interchangeable algorithms |
-| **Command** | 🚧 Coming Soon | Encapsulate requests as objects |
-| **State** | 🚧 Coming Soon | Change behavior when internal state changes |
-| **Template Method** | 🚧 Coming Soon | Define algorithm skeleton |
-| **Chain of Responsibility** | 🚧 Coming Soon | Pass requests along handler chain |
-| **Iterator** | 🚧 Coming Soon | Access collection elements sequentially |
-| **Mediator** | 🚧 Coming Soon | Define object interactions |
-| **Memento** | 🚧 Coming Soon | Capture and restore object state |
-| **Visitor** | 🚧 Coming Soon | Separate algorithms from objects |
-| **Interpreter** | 🚧 Coming Soon | Define grammar for language |
+| Pattern | Status | Description | Documentation |
+|---------|--------|-------------|---------------|
+| **[Observer](src/behavioral/observer/)** | ✅ Complete | Notify multiple objects of state changes | [📖 Read More](src/behavioral/observer/) |
+| **Strategy** | 🚧 Coming Soon | Define family of interchangeable algorithms | Coming Soon |
+| **Command** | 🚧 Coming Soon | Encapsulate requests as objects | Coming Soon |
+| **State** | 🚧 Coming Soon | Change behavior when internal state changes | Coming Soon |
+| **Template Method** | 🚧 Coming Soon | Define algorithm skeleton | Coming Soon |
+| **Chain of Responsibility** | 🚧 Coming Soon | Pass requests along handler chain | Coming Soon |
+| **Iterator** | 🚧 Coming Soon | Access collection elements sequentially | Coming Soon |
+| **Mediator** | 🚧 Coming Soon | Define object interactions | Coming Soon |
+| **Memento** | 🚧 Coming Soon | Capture and restore object state | Coming Soon |
+| **Visitor** | 🚧 Coming Soon | Separate algorithms from objects | Coming Soon |
+| **Interpreter** | 🚧 Coming Soon | Define grammar for language | Coming Soon |
 
 ## 🏗️ Project Structure
 
@@ -106,30 +146,53 @@ typescript-design-patterns/
 ├── src/
 │   ├── creational/
 │   │   ├── singleton/
-│   │   │   ├── Singleton.ts
-│   │   │   └── Demo.ts
+│   │   │   ├── Singleton.ts         # Implementation
+│   │   │   ├── Demo.ts             # Usage examples
+│   │   │   └── README.md           # 📖 Full documentation
 │   │   ├── factory-method/
 │   │   │   ├── FactoryMethod.ts
-│   │   │   └── Demo.ts
+│   │   │   ├── Demo.ts
+│   │   │   └── README.md
 │   │   ├── abstract-factory/
 │   │   │   ├── AbstractFactory.ts
-│   │   │   └── Demo.ts
+│   │   │   ├── Demo.ts
+│   │   │   └── README.md
 │   │   └── builder/
 │   │       ├── Builder.ts
-│   │       └── Demo.ts
+│   │       ├── Demo.ts
+│   │       └── README.md
 │   ├── structural/
 │   │   └── adapter/
-│   │       └── Adapter.ts
+│   │       ├── Adapter.ts
+│   │       └── README.md
 │   ├── behavioral/
 │   │   └── observer/
 │   │       ├── Observer.ts
-│   │       └── Demo.ts
-│   └── index.ts
-├── dist/ (generated)
+│   │       ├── Demo.ts
+│   │       └── README.md
+│   └── index.ts                    # Main entry point
+├── dist/                           # Compiled output
+├── docs/                           # Additional documentation
 ├── package.json
 ├── tsconfig.json
-└── README.md
+├── README.md                       # This file
+└── reference.md                    # 📚 Complete pattern reference
 ```
+
+## 📚 Reference Material
+
+This project includes a comprehensive [reference.md](reference.md) file that contains:
+
+- **Complete explanations** of all 23 GoF design patterns
+- **Real-world analogies** to make patterns easy to understand  
+- **Code examples** in multiple programming languages
+- **When to use** each pattern guidelines
+- **Benefits and drawbacks** of each approach
+- **Cross-references** between related patterns
+
+The reference material serves as the foundation for all individual pattern implementations and documentation in this TypeScript project.
+
+## 🏗️ Project Structure
 
 ## 💡 Pattern Examples
 
